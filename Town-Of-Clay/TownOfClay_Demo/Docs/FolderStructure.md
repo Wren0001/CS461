@@ -23,7 +23,10 @@ TownOfClay_Demo/
 │       │   │   │   ├── Gifts/
 │       │   │   │   ├── Glazes/
 │       │   │   │   ├── Mail/
+│       │   │   │   ├── Materials/
 │       │   │   │   ├── Pottery/
+│       │   │   │   │   ├── Stoneware/
+│       │   │   │   │   └── Tintable/
 │       │   │   │   └── Ware/
 │       │   │   ├── Objects/
 │       │   │   │   ├── Home/

@@ -1,0 +1,148 @@
+{
+ "room": "studio_upstairs",
+ "title": "Your Studio - upstairs flat",
+ "size_tiles": [
+  15,
+  11
+ ],
+ "wall": "interior_walls/wallpaper_snail_damask",
+ "floor": "interior_floors/walnut_planks",
+ "objects": [
+  {
+   "name": "apartment_objects/bed",
+   "x_px": 16,
+   "y_px": 32,
+   "w_px": 32,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "nightstand_lamp",
+   "x_px": 48,
+   "y_px": 48,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "bookshelf",
+   "x_px": 80,
+   "y_px": 32,
+   "w_px": 32,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "decor_objects/starship_plush",
+   "x_px": 24,
+   "y_px": 54,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "wall_clock",
+   "x_px": 112,
+   "y_px": 32,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "laptop_objects/laptop_desk",
+   "x_px": 128,
+   "y_px": 48,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "laptop_objects/laptop_new_mail",
+   "x_px": 136,
+   "y_px": 50,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "record_player",
+   "x_px": 160,
+   "y_px": 48,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": "record_player_spin"
+  },
+  {
+   "name": "plant",
+   "x_px": 208,
+   "y_px": 48,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "round_rug",
+   "x_px": 80,
+   "y_px": 96,
+   "w_px": 48,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "armchair",
+   "x_px": 32,
+   "y_px": 96,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "placeholders/trek_plush_placeholder",
+   "x_px": 40,
+   "y_px": 104,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "cat_bed",
+   "x_px": 80,
+   "y_px": 128,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "guitar_stand",
+   "x_px": 16,
+   "y_px": 128,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "stairs down",
+   "x_px": 192,
+   "y_px": 96,
+   "w_px": 32,
+   "h_px": 64,
+   "animation": null
+  },
+  {
+   "name": "player (stand-in)",
+   "x_px": 128,
+   "y_px": 96,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "laundry_basket",
+   "x_px": 160,
+   "y_px": 128,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  }
+ ]
+}

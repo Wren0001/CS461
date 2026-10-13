@@ -1,0 +1,132 @@
+{
+ "room": "post_office",
+ "title": "Post Office - counter and mail room",
+ "size_tiles": [
+  16,
+  10
+ ],
+ "wall": "interior_walls/wallpaper_pinstripe_navy",
+ "floor": "interior_floors/hex_tile_white",
+ "objects": [
+  {
+   "name": "po_boxes_wall",
+   "x_px": 16,
+   "y_px": 32,
+   "w_px": 48,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "sorting_shelves",
+   "x_px": 64,
+   "y_px": 32,
+   "w_px": 32,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "parcel_shelf",
+   "x_px": 96,
+   "y_px": 32,
+   "w_px": 32,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "wall_clock",
+   "x_px": 128,
+   "y_px": 32,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "post_counter",
+   "x_px": 144,
+   "y_px": 48,
+   "w_px": 48,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "letter_scale",
+   "x_px": 146,
+   "y_px": 42,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "stamp_machine",
+   "x_px": 208,
+   "y_px": 48,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "forms_desk",
+   "x_px": 32,
+   "y_px": 96,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "mail_cart",
+   "x_px": 80,
+   "y_px": 96,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "mail_bag",
+   "x_px": 128,
+   "y_px": 112,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "parcel_stack",
+   "x_px": 128,
+   "y_px": 96,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "rope_stanchion",
+   "x_px": 160,
+   "y_px": 100,
+   "w_px": 32,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "post_box_red",
+   "x_px": 224,
+   "y_px": 96,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "doormat_worn",
+   "x_px": 112,
+   "y_px": 128,
+   "w_px": 32,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "player (stand-in)",
+   "x_px": 176,
+   "y_px": 100,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  }
+ ]
+}

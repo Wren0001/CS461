@@ -14,6 +14,8 @@ import argparse, fnmatch, os, shutil, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 PROJECT = os.path.dirname(HERE)
 ROOT = "_Demo"
+# Folders in the pack that hold backups, previews or other seasons (their names repeat the spring files).
+GLOBAL_EXCLUDE = ("buildings_large_backup/", "clay_game_backup/", "previews/", "animation_previews/", "vegetation_fall/", "vegetation_winter/")
 
 def load_manifest():
     rules = []
@@ -28,22 +30,27 @@ def load_manifest():
 def walk(pack):
     for d, _, files in os.walk(pack):
         for f in files:
-            if f.lower().endswith((".png", ".gif", ".txt")):
+            if f.lower().endswith((".png", ".gif", ".txt", ".json")):
                 full = os.path.join(d, f)
-                yield os.path.relpath(full, pack).replace(os.sep, "/"), full
+                rel = os.path.relpath(full, pack).replace(os.sep, "/")
+                if any(("/" + rel).find("/" + g) >= 0 for g in GLOBAL_EXCLUDE): continue
+                yield rel, full
 
 def run(pack, size, rules, dry):
     files = list(walk(pack))
-    hit_patterns, copied = set(), 0
+    hit_patterns, copied, seen = set(), 0, {}
     for dest, pats, excl in rules:
         for rel, full in files:
             name = rel.rsplit("/", 1)[-1]
             if any(fnmatch.fnmatch(rel, "*" + e if not e.startswith("*") else e) for e in excl): continue
-            for p in pats:
-                ok = fnmatch.fnmatch(rel, "*" + p) if "/" in p else fnmatch.fnmatch(name, p)
-                if ok:
-                    hit_patterns.add((dest, p))
+            matched = [p for p in pats if (fnmatch.fnmatch(rel, "*" + p) if "/" in p else fnmatch.fnmatch(name, p))]
+            hit_patterns.update((dest, p) for p in matched)
+            for p in matched[:1]:
+                if True:
                     out = os.path.join(PROJECT, "Assets", ROOT, "Art", f"Sprites_{size}", dest, name)
+                    if out in seen and seen[out] != rel:
+                        print(f"[{size}] name clash, kept the first: {seen[out]}  (skipped {rel})"); break
+                    seen[out] = rel
                     if not dry:
                         os.makedirs(os.path.dirname(out), exist_ok=True)
                         shutil.copy2(full, out)

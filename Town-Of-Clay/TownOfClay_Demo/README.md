@@ -19,9 +19,9 @@ uses its own namespace (`ClayDemo.*`), and its own root (`Assets/_Demo/`), so it
 ## Getting started
 1. Create a new Unity 6 project from the **Universal 2D** template and copy this folder's `Assets/` and `Tools/` into it.
 2. Install **Input System, TextMeshPro, 2D Tilemap Extras** (URP comes with the 2D URP template).
-3. Pull the art from the packs you already have (it copies by name, nothing is redrawn):
-   `python3 Tools/copy_assets.py --pack16 <path>/assets_16x16 --pack32 <path>/assets_32x32 --dry-run`
-   then run it again without `--dry-run`. Any pattern that matches nothing is listed so you can fix the name.
+3. **The 16x16 art is already in** `Assets/_Demo/Art/Sprites_16/` (376 files, copied by name from the 16x16 pack; nothing redrawn).
+   For the 32x32 set, run `python3 Tools/copy_assets.py --pack32 <path>/assets_32x32` (add `--dry-run` first to preview).
+   Pottery is split by clay body (`Items/Pottery/Stoneware`, `Tintable`) because every body uses the same file names.
 4. The **quest system is written** (setup and a play-through in `Docs/QuestSystem.md`); every other script is a **stub** (usings, namespace, empty declarations). Build order is at the end of `Docs/ClassBreakdown.md`.
 
 The same docs are also inside `Assets/_Demo/Docs/`, like the full project's `_Project/Docs/`.
