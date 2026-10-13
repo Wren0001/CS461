@@ -1,0 +1,6 @@
+Create these scenes in the Unity editor (scenes can't be stubbed as text):
+  Boot.unity
+  Interiors/Studio.unity   (workshop + upstairs flat)
+  Overworld/KilnRow.unity
+  Overworld/TownPlaza.unity
+  Interiors/PostOffice.unity
