@@ -1,0 +1,14 @@
+// DialogBox.cs  (ClayFirstBuild)
+// Bottom box, 128x128 portrait, typewriter text.
+// STUB: declarations only, no fields or methods yet.
+using UnityEngine;
+using System;
+using System.Collections.Generic;
+using UnityEngine.UI;
+using TMPro;
+using System.Collections;
+
+namespace ClayFirstBuild.UI
+{
+    public class DialogBox : MonoBehaviour { }
+}

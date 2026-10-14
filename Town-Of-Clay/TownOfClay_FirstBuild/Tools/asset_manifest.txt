@@ -1,0 +1,62 @@
+# First build asset manifest
+# Destination (under Art/Sprites_16 and Art/Sprites_32) | filename globs   !excludes
+# File names checked against the asset catalog. Only existing pack art; nothing new, nothing rescaled.
+# Matching tagged list: the Town of Clay Build Catalog page.
+
+Buildings             | house_exterior* post_office_exterior* !animations/* !animation_previews/*
+Tilesets              | town_paths_* town_terrain_* house_interior_* civic_interior_* studio_objects_*
+Interiors             | interiors/studio_shop* interiors/studio_upstairs* interiors/post_office* layout/town_live_plaza_market*
+Interiors/WallsFloors | wallpaper_pottery_print_* wallpaper_snail_damask_* wallpaper_pinstripe_navy_* polished_concrete_* walnut_planks_* hex_tile_white_*
+Objects/Studio        | clay_bin_* glaze_table_* ware_rack_* wedging_table_* tool_caddy_* kiln_lv1_2x3* kiln_lv1_lit_* pottery_table_lv1_2x2* box_* boxes_flattened_* moving_box_pile_* shipping_outbox_* shop_sign_open_* shop_sign_closed_* !animations/* !animation_previews/*
+Objects/Home          | bed_2x3* bookshelf_2x3* chair_facing_down_* chair_facing_up_* counter_1x2* counter_sink_* floor_lamp_* fridge_* nightstand_lamp_* plant_1x2* round_rug_* sofa_2x2* stove_1x2* table_2x2* upper_cabinet_* wall_clock_* wardrobe_* !animations/* !animation_previews/*
+Objects/PostOffice    | forms_desk_* letter_scale_* mail_bag_1x1* mail_cart_* parcel_shelf_* parcel_stack_* po_boxes_wall_* post_box_red_* post_counter_* sorting_shelves_* stamp_machine_* !animations/* !animation_previews/*
+Objects/Town          | fountain_3x3* park_bench_2x2* street_lamp_1x3* trash_can_* mailbox_flag_down_* mailbox_flag_up_* outdoor_notice_board_* stone_planter_* newspaper_box_* bike_rack_* signpost_directions_* fire_hydrant_* new_email_bubble_mail_1x2* new_email_bubble_plain_1x2* character_shadow_* !upgrades/* !animations/* !animation_previews/*
+Objects/Plants        | oak_tree_* birch_tree_* cherry_blossom_3x4* bush_round_* bush_flowering_* bush_berry_* hedge_* boxwood_planter_* clover_patch_* fern_* small_rock_* tall_grass_green_* tall_grass_seedheads_* wildflowers_* sapling_* !animations/* !animation_previews/*
+Items/Clay            | clay_stoneware_* clay_block_* clay_wedged_ball_* !animations/* !animation_previews/*
+Items/Glazes          | glaze_clear_* glaze_celadon_* glaze_iron_red_* !animations/* !animation_previews/*
+Items/Ware            | greenware_bowl_* greenware_mug_* greenware_plate_* greenware_vase_* bowl_celadon_* !animations/* !animation_previews/*
+Items/Mail            | letter_1x1* letter_sealed_* package_small_* stamp_sheet_* !inventory_items/materials/* !animations/* !animation_previews/*
+Items/Materials       | coin_pouch_* !animations/* !animation_previews/*
+Items/Gifts           | chamomile_tea_blend_* !animations/* !animation_previews/*
+Items/Pottery         | level_badge_* !animations/* !animation_previews/*
+Items/Pottery/Stoneware| pottery_items/stoneware/cup_lv* pottery_items/stoneware/bowl_lv* pottery_items/stoneware/vase_lv* !animations/* !animation_previews/*
+Items/Pottery/Tintable| pottery_items/greyscale_tintable/cup_lv* pottery_items/greyscale_tintable/bowl_lv* pottery_items/greyscale_tintable/vase_lv* !animations/* !animation_previews/*
+Items/Pottery/Terracotta| pottery_items/terracotta/cup_lv* pottery_items/terracotta/bowl_lv* pottery_items/terracotta/vase_lv* !animations/* !animation_previews/*
+Animations            | kiln_lv1_fire_* studio_wheel_spin_* wheel_topdown_spin_stage* pottery_table_lv1_spin_* studio_house_shop_door_open_* house_interior_door_open_* post_office_doors_open_* street_lamp_off* street_lamp_turn_on_* street_lamp_glow_* tall_grass_sway_* fountain_flow_* chimney_smoke_* mailbox_flag_raise_* shop_sign_flip_* butterfly_flutter_* butterfly_blue_flutter_* new_email_bubble_mail_pop_in* new_email_bubble_mail_float* new_email_bubble_plain_pop_in* new_email_bubble_plain_float* emote_heart_* emote_question_* emote_exclaim_* emote_happy_* emote_ellipsis_* shipping_outbox_pickup_* oak_tree_rustle_* birch_tree_rustle_* cherry_blossom_rustle_*
+FX                    | fx_dust_puff_* fx_clay_splatter_* fx_kiln_steam_* fx_heat_shimmer_* fx_sparkle_1x1_* fx_sparkle_burst_* fx_coin_pop_* fx_word_perfect_* fx_word_good_* fx_word_miss_*
+UI/HUD                | ui/hud/clock_date_season* ui/hud/money_counter* ui/hud/hotbar_* ui/hud/toast_example* ui/hud/prompts/* ui/hud/cursors/* ui/hud/widgets/mail_indicator* ui/hud/widgets/quest_tracker* ui/hud/widgets/quest_marker_* !*psychedelic*
+UI/Menus              | ui/menus/logo/* ui/menus/widgets/* ui/menus/widgets/portrait_backdrop_128* ui/menus/extras/item_tooltip_example* ui/menus/extras/level_up_banner* ui/wheel_minigame/*
+UI/Cards              | cutscenes/graduation/ui/ui_title_card_* cutscenes/graduation/ui/ui_chapter_card_* ui_title_card_640x360.png ui_chapter_card_640x360.png
+Upgrades              | upgrades/studio_shop/*
+
+# ====== added for the first build ======
+Buildings             | craft_superstore_exterior* cottage_exterior* !animations/* !animation_previews/*
+Tilesets              | quarry_terrain_* craft_superstore_interior_* garden_ground_*
+Interiors             | interiors/craft_superstore*
+Interiors/WallsFloors | paint_cream_*
+Objects/Studio        | test_tile_board_* kiln_shelf_stack_* kiln_lv2_3x3* kiln_lv2_lit_* kiln_lv1_broken_* kiln_lv2_broken_* display_shelf_* display_table_* reclaim_bucket_* !animations/* !animation_previews/*
+Objects/Shops         | aisle_number_sign_* basket_stack_* cart_corral_* checkout_lane_* clearance_bin_* endcap_promo_* fabric_bolt_rack_* fabric_cutting_counter_* frame_wall_* gondola_* membership_kiosk_* pallet_display_* parking_light_pole_1x3* promo_banner_* rope_stanchion_* seasonal_aisle_* security_camera_* self_checkout_* shopping_cart_* stocking_cart_* store_trash_bin_* wall_shelving_* wet_floor_sign_* !*supermarket* !animations/* !animation_previews/*
+Objects/Quarry        | boulder_large_* bus_stop_sign_* clay_brick_drying_rack_* clay_node_red_* clay_node_stoneware_* clay_puddle_* clay_sacks_* conveyor_belt_3x1* gravel_pile_* ladder_1x3* lantern_post_quarry_* old_digger_* pug_mill_2x2* quarry_sign_* rock_pile_* rope_barrier_* sieve_frame_* site_hut_* slaking_tub_2x2* tarp_pile_* tool_rack_* warning_sign_* water_pump_1x2* !animations/* !animation_previews/*
+Objects/Town          | bus_shelter_* town_bus_left_* town_bus_right_* puddle_large_* puddle_small_1x1.png puddle_wide_2x1.png !upgrades/* !animations/* !animation_previews/*
+Upgrades/TownProps    | upgrades/town_props/*
+Objects/Garden        | bean_trellis_* bird_bath_* cabbage_* carrot_tops_* compost_bin_* garden_gnome_* garden_shed_* herb_pots_* hose_reel_* lettuce_* picket_fence_* picket_gate_* potting_bench_* rain_barrel_* seed_packet_crate_* shovel_and_rake_* strawberries_* sunflower_* tomato_cage_* trellis_arch_* watering_can_* wheelbarrow_* !animations/* !animation_previews/*
+Objects/Plants        | pine_tree_* mossy_boulder_* stump_* fallen_log_* tall_grass_dry_* !animations/* !animation_previews/*
+Items/Clay            | clay_bag_25lb_* !animations/* !animation_previews/*
+Items/Glazes          | glaze_shino_* glaze_powder_bag_* oxide_iron_* !animations/* !animation_previews/*
+Items/Kiln            | kiln_cone_pack_* kiln_wash_* kiln_stilts_* kiln_post_* !animations/* !animation_previews/*
+Items/Tools           | tool_sponge_* tool_wire_cutter_* tool_loop_trimmer_* tool_glaze_brush_* !animations/* !animation_previews/*
+Items/Ware            | bisque_* planter_terracotta_* !animations/* !animation_previews/*
+Items/Gifts           | friendship_heart_* glaze_recipe_card_* !animations/* !animation_previews/*
+Items/Quarry          | bus_ticket_* pickaxe_* raw_red_clay_* raw_stoneware_clay_* clay_sieve_* shovel_1x1* !animations/* !animation_previews/*
+Items/Tinkering       | thermocouple_probe_* fuse_* wrench_* screwdriver_* multimeter_* !animations/* !animation_previews/*
+Items/Graduation      | diploma_folder_* diploma_scroll_* graduation_bouquet_* graduation_photo_* honor_cord_* mortarboard_* tassel_keepsake_* !animations/* !animation_previews/*
+Items/Pottery/Stoneware| pottery_items/stoneware/mug_lv* pottery_items/stoneware/slipcast_planter_lv* !animations/* !animation_previews/*
+Items/Pottery/Tintable| pottery_items/greyscale_tintable/mug_lv* pottery_items/greyscale_tintable/slipcast_planter_lv* !animations/* !animation_previews/*
+Items/Pottery/Terracotta| pottery_items/terracotta/mug_lv* pottery_items/terracotta/slipcast_planter_lv* !animations/* !animation_previews/*
+Animations            | kiln_lv2_fire_* kiln_lv1_error_blink_* kiln_lv2_error_blink_* repair_marker_float_* cottage_door_open_* superstore_sliding_doors_open_* parking_light_pole_off* parking_light_pole_turn_on_* parking_light_pole_glow_* conveyor_belt_run_* slaking_tub_stir_* pug_mill_run_* water_pump_drip_* snail_crawl_* emote_sweat_* emote_zzz_* emote_idea_* emote_music_* grad_banner_sway_* balloon_bunch_bob_* town_bus_doors_open_* pine_tree_rustle_* fx_combo_x2_* fx_combo_x3_* fx_combo_x4_* fx_combo_x5_*
+Weather               | weather_rain_light_overlay_* weather_rain_heavy_overlay_* puddle_wide_ripple_* puddle_small_ripple_* fx_rain_splash_*
+FX                    | fx_pickaxe_sparks_* fx_clay_chunks_* fx_repair_sparkle_* fx_heart_pop_* fx_skill_level_up_* fx_confetti_overlay_* fx_camera_flash_*
+UI/HUD                | ui/hud/energy_jug_* ui/hud/status_effects/status_* ui/hud/toast_found_fossil* ui/hud/widgets/repair_marker* ui/hud/toast_skill_level_up* toast_skill_level_up.png toast_skill_level_up_choose.png !*psychedelic*
+UI/Menus              | ui/menus/calendar/* ui/menus/widgets/glaze_* ui/menus/widgets/save_slot_* ui/menus/extras/heart_full* ui/menus/extras/dialogue_choices_example*
+UI/Skills             | skill_ceramics* skill_mining* skill_tinkering* ceramics_wheelwright* ceramics_glaze_chemist* mining_prospector* mining_geologist* tinkering_mechanic* tinkering_inventor* ui_skills_mockup* ui_skill_tree_ceramics_mockup* ui_choose_path_lv5_*
+Cutscenes/Graduation  | cutscenes/graduation/* cutscene_graduation_* cutscene_grad_* cutscene_dean_* bg_*_320x180.png bg_commencement_wide_640x360.png cu_diploma_320x180.png layer_seated_rows_* ui_end_card_polaroid_* ui_caption_box_* ui_name_card_*

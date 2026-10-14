@@ -1,0 +1,228 @@
+{
+ "room": "craft_superstore",
+ "title": "Craft Superstore - sales floor",
+ "size_tiles": [
+  20,
+  12
+ ],
+ "wall": "interior_walls/paint_cream",
+ "floor": "interior_floors/polished_concrete",
+ "objects": [
+  {
+   "name": "wall_shelving",
+   "x_px": 16,
+   "y_px": 32,
+   "w_px": 48,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "frame_wall",
+   "x_px": 64,
+   "y_px": 32,
+   "w_px": 48,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "promo_banner",
+   "x_px": 112,
+   "y_px": 32,
+   "w_px": 32,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "wall_shelving",
+   "x_px": 144,
+   "y_px": 32,
+   "w_px": 48,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "wall_shelving",
+   "x_px": 192,
+   "y_px": 32,
+   "w_px": 48,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "security_camera",
+   "x_px": 240,
+   "y_px": 22,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "fabric_bolt_rack",
+   "x_px": 240,
+   "y_px": 48,
+   "w_px": 48,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "aisle_number_sign",
+   "x_px": 32,
+   "y_px": 14,
+   "w_px": 32,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "gondola_paint",
+   "x_px": 32,
+   "y_px": 80,
+   "w_px": 48,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "gondola_yarn_bags",
+   "x_px": 96,
+   "y_px": 80,
+   "w_px": 48,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "gondola_boxes",
+   "x_px": 160,
+   "y_px": 80,
+   "w_px": 48,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "endcap_promo",
+   "x_px": 208,
+   "y_px": 64,
+   "w_px": 32,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "seasonal_aisle",
+   "x_px": 32,
+   "y_px": 112,
+   "w_px": 48,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "pallet_display",
+   "x_px": 96,
+   "y_px": 112,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "clearance_bin",
+   "x_px": 144,
+   "y_px": 112,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "fabric_cutting_counter",
+   "x_px": 240,
+   "y_px": 96,
+   "w_px": 48,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "checkout_lane",
+   "x_px": 48,
+   "y_px": 144,
+   "w_px": 48,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "checkout_lane",
+   "x_px": 112,
+   "y_px": 144,
+   "w_px": 48,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "self_checkout",
+   "x_px": 176,
+   "y_px": 144,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "self_checkout",
+   "x_px": 192,
+   "y_px": 144,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "membership_kiosk",
+   "x_px": 224,
+   "y_px": 144,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "shopping_cart",
+   "x_px": 256,
+   "y_px": 128,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "store_trash_bin",
+   "x_px": 288,
+   "y_px": 144,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "wet_floor_sign",
+   "x_px": 160,
+   "y_px": 112,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "rope_stanchion",
+   "x_px": 240,
+   "y_px": 150,
+   "w_px": 32,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "basket_stack",
+   "x_px": 288,
+   "y_px": 64,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "player (stand-in)",
+   "x_px": 208,
+   "y_px": 112,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  }
+ ]
+}

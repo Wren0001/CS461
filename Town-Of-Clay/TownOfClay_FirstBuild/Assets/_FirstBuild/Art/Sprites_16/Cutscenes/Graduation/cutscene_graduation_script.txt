@@ -1,0 +1,71 @@
+GRADUATION CUTSCENE - opening of the game (full screen)
+========================================================
+The player's graduation from Hollowbrook College of Art (BFA, Ceramics). Plays once, right after New Game,
+then 'Three weeks later... Chapter 1: Moving Day' hands over to gameplay as the bus pulls into town.
+Length about 38 s. Screen 640x360. Shots marked zoom 2 are authored at 320x180 and drawn at 2x.
+Skippable: hold SPACE (ring fills), jumps to the chapter card.
+
+SHOT LIST
+S1     0.0-  3.0s  zoom 1  Title card
+       fade in from black 800 ms, hold, fade out 500 ms. Music: soft processional starts.
+       assets: ui/ui_title_card_640x360
+
+S2     3.0-  8.5s  zoom 1  Wide - commencement on the quad
+       DEAN MARLOWE: "Good morning, graduates, families, and friends of Hollowbrook!"
+       static wide shot; caption from 0.8 s; the audience claps for the last 2 s (swap clap0/clap1 every 200 ms); 2-3 random camera flashes in the family rows.
+       assets: backgrounds/bg_commencement_wide_640x360, layers/layer_seated_rows(_clap0/_clap1)_640x360, ui/ui_caption_box_576x76, animations/grad_banner_sway, animations/fx_camera_flash
+
+S3     8.5- 12.5s  zoom 2  Medium - the dean at the podium
+       DEAN MARLOWE: "And now, the moment you've all been waiting for: the conferring of degrees."
+       dean behind the podium, speaking loop while the caption types out.
+       assets: backgrounds/bg_stage_medium_320x180, characters/dean_speak_2x3_4f, props/commencement_podium_2x3
+
+S4    12.5- 17.0s  zoom 2  Medium - name called, walk across the stage
+       DEAN MARLOWE: "[PLAYER NAME]. Bachelor of Fine Arts, Ceramics."
+       graduate walks in from the left (≈ 60 px/s at 320 scale) to the dean; name card slides in at 1.0 s, out at 4.0 s; dean steps out and holds out the diploma.
+       assets: characters/grad_walk_2x3_4f, characters/dean_give_2x3_3f, ui/ui_name_card_slide_in_336x64_6f
+
+S5    17.0- 20.0s  zoom 2  Close-up - handshake + diploma
+       6 frames at 300 ms then hold; camera flash on frame 3 (the photo the family takes).
+       assets: animations/cu_handshake_320x180_6f, ui/ui_flash_white_320x180_4f
+
+S6    20.0- 22.4s  zoom 2  Close-up - the diploma
+       hold; the engine writes the player's name into the [PLAYER NAME] gap (or redraw the text layer).
+       assets: backgrounds/cu_diploma_320x180
+
+S7    22.4- 24.8s  zoom 2  Close-up - turning the tassel
+       6 frames at 260 ms, tassel moves from right to left; small sparkle on the last frame.
+       assets: animations/cu_tassel_turn_320x180_6f
+
+S8    24.8- 27.4s  zoom 2  Medium - congratulations
+       DEAN MARLOWE: "Graduates of Hollowbrook, congratulations!"
+       graduate turns to the camera holding the diploma; dean's line.
+       assets: characters/grad_hold_diploma_2x3_1f, characters/dean_speak_2x3_4f
+
+S9    27.4- 31.6s  zoom 2  Cap toss
+       cheer row frame 0 (caps on) 400 ms, frame 1 (throw) 300 ms, then alternate 2/3 every 200 ms; caps overlay 12 frames at 300 ms; confetti tiled over the top. Music swells.
+       assets: backgrounds/bg_sky_toss_320x180, animations/cheer_row_320x180_4f, animations/cap_toss_overlay_320x180_12f, animations/fx_confetti_overlay
+
+S10   31.6- 34.8s  zoom 1  Snapshot - polaroid
+       white flash, then the cap toss freezes into the polaroid. The photo becomes the 'graduation_photo' keepsake item.
+       assets: ui/ui_flash_white_320x180_4f, ui/ui_end_card_polaroid_640x360
+
+S11   34.8- 38.2s  zoom 1  Iris out + chapter card
+       iris closes on the polaroid (8 frames x 80 ms), chapter card fades in; gameplay starts with the bus pulling into town.
+       assets: ui/ui_iris_wipe_320x180_8f, ui/ui_chapter_card_640x360
+
+FILES (cutscenes/graduation/)
+backgrounds/   bg_commencement_wide (640x360), bg_stage_medium, bg_sky_toss, cu_diploma (320x180)
+layers/        layer_seated_rows (+ _clap0/_clap1 frames): seated graduates and families, drawn over the wide shot
+characters/    2x3-tile strips at the 2x-zoom scale: grad_walk 4f, grad_wave 2f, grad_receive 3f, grad_cap_toss 4f,
+               grad_idle, grad_hold_diploma, dean_idle, dean_speak 4f, dean_give 3f (also in animations/ as cutscene_*)
+animations/    cu_handshake 6f, cu_tassel_turn 6f, cap_toss_overlay 12f (transparent), cheer_row 4f (transparent)
+ui/            (unstamped) letterbox, title card, name card + slide-in, caption box (dean / blank / narration),
+               skip prompt 8f, iris wipe 8f, white flash 4f, polaroid end card, chapter card, continue prompt 2f
+props/         commencement_podium, folding_chair_white, stage_steps, grad_banner_pole, diploma_table,
+               flower_planter_grad, balloon_bunch, commencement_sign, pennant_garland_teal_gold
+Also: animations/ balloon_bunch_bob, fx_confetti_overlay, fx_camera_flash, grad_banner_sway;
+      inventory_items/graduation/ diploma_folder, diploma_scroll, mortarboard, tassel_keepsake, graduation_photo,
+      graduation_bouquet, honor_cord (keepsakes you start the game with - hang the diploma or photo in the studio).
+demos/cutscene_graduation_preview.gif plays the whole thing; demos/cutscene_graduation_storyboard.png has one still per shot.
+School crest = the snail helix. Characters are grey mannequin placeholders like the rest of the pack.

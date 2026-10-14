@@ -1,0 +1,276 @@
+{
+ "room": "studio_shop",
+ "title": "Your Studio - workshop and shop (ground floor)",
+ "size_tiles": [
+  18,
+  11
+ ],
+ "wall": "interior_walls/wallpaper_pottery_print",
+ "floor": "interior_floors/polished_concrete",
+ "objects": [
+  {
+   "name": "ware_rack",
+   "x_px": 16,
+   "y_px": 32,
+   "w_px": 32,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "kiln_upgrades/kiln_lv1",
+   "x_px": 48,
+   "y_px": 32,
+   "w_px": 32,
+   "h_px": 48,
+   "animation": "kiln_lv1_fire"
+  },
+  {
+   "name": "studio_extras/glaze_table",
+   "x_px": 80,
+   "y_px": 48,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "test_tile_board",
+   "x_px": 80,
+   "y_px": 22,
+   "w_px": 32,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "studio_shop/display_shelf",
+   "x_px": 144,
+   "y_px": 32,
+   "w_px": 48,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "pottery_items/stoneware/mug_lv3",
+   "x_px": 146,
+   "y_px": 35,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "pottery_items/porcelain/cup_lv3",
+   "x_px": 160,
+   "y_px": 35,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "pottery_items/speckled/bowl_lv3",
+   "x_px": 174,
+   "y_px": 35,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "pottery_items/terracotta/slipcast_planter_lv3",
+   "x_px": 146,
+   "y_px": 51,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "pottery_items/black/vase_lv3",
+   "x_px": 160,
+   "y_px": 51,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "pottery_items/earthenware/plate_lv3",
+   "x_px": 174,
+   "y_px": 51,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "studio_shop/shop_sign_open",
+   "x_px": 208,
+   "y_px": 32,
+   "w_px": 32,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "stairs up",
+   "x_px": 240,
+   "y_px": 16,
+   "w_px": 32,
+   "h_px": 48,
+   "animation": null
+  },
+  {
+   "name": "studio_extras/clay_bin",
+   "x_px": 16,
+   "y_px": 80,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "studio_extras/wedging_table",
+   "x_px": 16,
+   "y_px": 112,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "pottery_table_upgrades/pottery_table_lv1",
+   "x_px": 64,
+   "y_px": 80,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": "pottery_table_lv1_spin"
+  },
+  {
+   "name": "player (stand-in)",
+   "x_px": 96,
+   "y_px": 76,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "studio_more/banding_wheel",
+   "x_px": 128,
+   "y_px": 80,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "studio_shop/reclaim_bucket",
+   "x_px": 64,
+   "y_px": 128,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "studio_extras/tool_caddy",
+   "x_px": 80,
+   "y_px": 128,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "studio_shop/display_pedestal",
+   "x_px": 160,
+   "y_px": 96,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "pottery_items/porcelain/bud_vase_lv3",
+   "x_px": 160,
+   "y_px": 97,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "studio_shop/display_table",
+   "x_px": 176,
+   "y_px": 128,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "pottery_items/stoneware/teapot_lv3",
+   "x_px": 177,
+   "y_px": 136,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "pottery_items/speckled/mug_lv3",
+   "x_px": 191,
+   "y_px": 136,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "studio_extras/shop_counter",
+   "x_px": 224,
+   "y_px": 80,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "laptop_objects/laptop_closed",
+   "x_px": 232,
+   "y_px": 82,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "studio_more/slab_roller",
+   "x_px": 104,
+   "y_px": 128,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "studio_more/plaster_bat_rack",
+   "x_px": 48,
+   "y_px": 100,
+   "w_px": 16,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "studio_shop/order_crate",
+   "x_px": 208,
+   "y_px": 112,
+   "w_px": 16,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "studio_shop/shipping_outbox",
+   "x_px": 240,
+   "y_px": 128,
+   "w_px": 32,
+   "h_px": 32,
+   "animation": null
+  },
+  {
+   "name": "doormat_worn",
+   "x_px": 144,
+   "y_px": 144,
+   "w_px": 32,
+   "h_px": 16,
+   "animation": null
+  },
+  {
+   "name": "basement hatch (to the basement)",
+   "x_px": 16,
+   "y_px": 144,
+   "w_px": 32,
+   "h_px": 16,
+   "animation": null
+  }
+ ]
+}

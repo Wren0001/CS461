@@ -1,0 +1,12 @@
+Create these scenes in the Unity editor (scenes can't be stubbed as text):
+  Boot.unity
+  MainMenu.unity
+  Cutscenes/Graduation.unity
+  Overworld/KilnRow.unity
+  Overworld/TownPlaza.unity
+  Overworld/MainStreet.unity
+  Overworld/OakesLane.unity
+  Overworld/Quarry.unity
+  Interiors/Studio.unity
+  Interiors/PostOffice.unity
+  Interiors/CraftSuperstore.unity

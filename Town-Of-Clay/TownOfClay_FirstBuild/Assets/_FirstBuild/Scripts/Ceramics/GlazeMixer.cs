@@ -1,0 +1,11 @@
+// GlazeMixer.cs  (ClayFirstBuild)
+// Simple recipe mixing: 2 ingredients -> known glaze. Unlocked recipes only.
+// STUB: declarations only, no fields or methods yet.
+using UnityEngine;
+using System;
+using System.Collections.Generic;
+
+namespace ClayFirstBuild.Ceramics
+{
+    public class GlazeMixer { }
+}

@@ -1,0 +1,199 @@
+{
+ "cutscene": "graduation",
+ "total_ms": 38200,
+ "screen_px": [
+  640,
+  360
+ ],
+ "zoom_note": "zoom 2 = the shot is authored at 320x180 and drawn at 2x (camera zoom). The 32x32 pack has every image at 2x.",
+ "placeholders": {
+  "[PLAYER NAME]": "player's name",
+  "[YEAR]": "graduation year",
+  "DEAN MARLOWE": "placeholder NPC name"
+ },
+ "skippable": "hold SPACE (ui_skip_prompt fills over ~1 s), jumps to s11",
+ "shots": [
+  {
+   "id": "s1",
+   "name": "Title card",
+   "start_ms": 0,
+   "end_ms": 3000,
+   "camera_zoom": 1,
+   "letterbox": false,
+   "caption": null,
+   "assets": [
+    "ui/ui_title_card_640x360"
+   ],
+   "notes": "fade in from black 800 ms, hold, fade out 500 ms. Music: soft processional starts."
+  },
+  {
+   "id": "s2",
+   "name": "Wide - commencement on the quad",
+   "start_ms": 3000,
+   "end_ms": 8500,
+   "camera_zoom": 1,
+   "letterbox": true,
+   "caption": {
+    "speaker": "DEAN MARLOWE",
+    "lines": [
+     "Good morning, graduates, families,",
+     "and friends of Hollowbrook!"
+    ]
+   },
+   "assets": [
+    "backgrounds/bg_commencement_wide_640x360",
+    "layers/layer_seated_rows(_clap0/_clap1)_640x360",
+    "ui/ui_caption_box_576x76",
+    "animations/grad_banner_sway",
+    "animations/fx_camera_flash"
+   ],
+   "notes": "static wide shot; caption from 0.8 s; the audience claps for the last 2 s (swap clap0/clap1 every 200 ms); 2-3 random camera flashes in the family rows."
+  },
+  {
+   "id": "s3",
+   "name": "Medium - the dean at the podium",
+   "start_ms": 8500,
+   "end_ms": 12500,
+   "camera_zoom": 2,
+   "letterbox": true,
+   "caption": {
+    "speaker": "DEAN MARLOWE",
+    "lines": [
+     "And now, the moment you've all been",
+     "waiting for: the conferring of degrees."
+    ]
+   },
+   "assets": [
+    "backgrounds/bg_stage_medium_320x180",
+    "characters/dean_speak_2x3_4f",
+    "props/commencement_podium_2x3"
+   ],
+   "notes": "dean behind the podium, speaking loop while the caption types out."
+  },
+  {
+   "id": "s4",
+   "name": "Medium - name called, walk across the stage",
+   "start_ms": 12500,
+   "end_ms": 17000,
+   "camera_zoom": 2,
+   "letterbox": true,
+   "caption": {
+    "speaker": "DEAN MARLOWE",
+    "lines": [
+     "[PLAYER NAME].",
+     "Bachelor of Fine Arts, Ceramics."
+    ]
+   },
+   "assets": [
+    "characters/grad_walk_2x3_4f",
+    "characters/dean_give_2x3_3f",
+    "ui/ui_name_card_slide_in_336x64_6f"
+   ],
+   "notes": "graduate walks in from the left (\u2248 60 px/s at 320 scale) to the dean; name card slides in at 1.0 s, out at 4.0 s; dean steps out and holds out the diploma."
+  },
+  {
+   "id": "s5",
+   "name": "Close-up - handshake + diploma",
+   "start_ms": 17000,
+   "end_ms": 20000,
+   "camera_zoom": 2,
+   "letterbox": true,
+   "caption": null,
+   "assets": [
+    "animations/cu_handshake_320x180_6f",
+    "ui/ui_flash_white_320x180_4f"
+   ],
+   "notes": "6 frames at 300 ms then hold; camera flash on frame 3 (the photo the family takes)."
+  },
+  {
+   "id": "s6",
+   "name": "Close-up - the diploma",
+   "start_ms": 20000,
+   "end_ms": 22400,
+   "camera_zoom": 2,
+   "letterbox": true,
+   "caption": null,
+   "assets": [
+    "backgrounds/cu_diploma_320x180"
+   ],
+   "notes": "hold; the engine writes the player's name into the [PLAYER NAME] gap (or redraw the text layer)."
+  },
+  {
+   "id": "s7",
+   "name": "Close-up - turning the tassel",
+   "start_ms": 22400,
+   "end_ms": 24800,
+   "camera_zoom": 2,
+   "letterbox": true,
+   "caption": null,
+   "assets": [
+    "animations/cu_tassel_turn_320x180_6f"
+   ],
+   "notes": "6 frames at 260 ms, tassel moves from right to left; small sparkle on the last frame."
+  },
+  {
+   "id": "s8",
+   "name": "Medium - congratulations",
+   "start_ms": 24800,
+   "end_ms": 27400,
+   "camera_zoom": 2,
+   "letterbox": true,
+   "caption": {
+    "speaker": "DEAN MARLOWE",
+    "lines": [
+     "Graduates of Hollowbrook,",
+     "congratulations!"
+    ]
+   },
+   "assets": [
+    "characters/grad_hold_diploma_2x3_1f",
+    "characters/dean_speak_2x3_4f"
+   ],
+   "notes": "graduate turns to the camera holding the diploma; dean's line."
+  },
+  {
+   "id": "s9",
+   "name": "Cap toss",
+   "start_ms": 27400,
+   "end_ms": 31600,
+   "camera_zoom": 2,
+   "letterbox": true,
+   "caption": null,
+   "assets": [
+    "backgrounds/bg_sky_toss_320x180",
+    "animations/cheer_row_320x180_4f",
+    "animations/cap_toss_overlay_320x180_12f",
+    "animations/fx_confetti_overlay"
+   ],
+   "notes": "cheer row frame 0 (caps on) 400 ms, frame 1 (throw) 300 ms, then alternate 2/3 every 200 ms; caps overlay 12 frames at 300 ms; confetti tiled over the top. Music swells."
+  },
+  {
+   "id": "s10",
+   "name": "Snapshot - polaroid",
+   "start_ms": 31600,
+   "end_ms": 34800,
+   "camera_zoom": 1,
+   "letterbox": false,
+   "caption": null,
+   "assets": [
+    "ui/ui_flash_white_320x180_4f",
+    "ui/ui_end_card_polaroid_640x360"
+   ],
+   "notes": "white flash, then the cap toss freezes into the polaroid. The photo becomes the 'graduation_photo' keepsake item."
+  },
+  {
+   "id": "s11",
+   "name": "Iris out + chapter card",
+   "start_ms": 34800,
+   "end_ms": 38200,
+   "camera_zoom": 1,
+   "letterbox": false,
+   "caption": null,
+   "assets": [
+    "ui/ui_iris_wipe_320x180_8f",
+    "ui/ui_chapter_card_640x360"
+   ],
+   "notes": "iris closes on the polaroid (8 frames x 80 ms), chapter card fades in; gameplay starts with the bus pulling into town."
+  }
+ ]
+}
